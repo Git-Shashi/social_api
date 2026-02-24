@@ -13,4 +13,6 @@ Rails.application.routes.draw do
 
   post "/login", to: "auth#login"
 
+  resources :posts, only: [:index, :create]
+
 end
