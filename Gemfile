@@ -52,4 +52,7 @@ group :development, :test do
 
   gem "jwt"
 
+  gem "rubocop", require: false
+
+  gem "rubocop-rails", require: false
 end
